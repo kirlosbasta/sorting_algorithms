@@ -5,7 +5,7 @@
  * bubble_sort - sort a list of integer using bubble sort
  * @array: Array of integer
  * @size: Size of the array
- * 
+ *
  * Return: Nothing
  */
 void bubble_sort(int *array, size_t size)
@@ -36,7 +36,7 @@ void bubble_sort(int *array, size_t size)
  * @num_1: integer 1
  * @num_2: integer 2
  *
- * Return: Nothing  
+ * Return: Nothing
  */
 void swap(int *num_1, int *num_2)
 {
