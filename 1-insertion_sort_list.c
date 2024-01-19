@@ -1,8 +1,10 @@
 #include "sort.h"
 
 /**
- * @brief 
- * 
+ * insertion_sort_list - implement the insertion sort algorithem
+ * @list: Head of the list
+ *
+ * Return: Nothing
  */
 void insertion_sort_list(listint_t **list)
 {
