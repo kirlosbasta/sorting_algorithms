@@ -12,7 +12,9 @@
 				"-Werror",
 				"-pedantic",
 				"-std=gnu89",
-				"*.c",
+				"${file}",
+				"3-quick_sort.c",
+				"print_array.c",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}",
                 ""
