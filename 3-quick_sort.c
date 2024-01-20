@@ -46,7 +46,8 @@ int partition(int *array, int low, int high, size_t size)
 	}
 	i++;
 	swap(&array[high], &array[i]);
-	print_array(array, size);
+	if (i != high)
+		print_array(array, size);
 	return (i);
 }
 
