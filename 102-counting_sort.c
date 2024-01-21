@@ -27,19 +27,18 @@ void counting_sort(int *array, size_t size)
 	for (i = 0; i < (int)size; i++)
 		countarr[array[i]]++;
 	for (i = 1; i <= max; i++)
-	{
 		countarr[i] += countarr[i - 1];
-	}
 	print_array(countarr, max + 1);
 	outputarr = malloc(sizeof(int) * size);
+	if (!outputarr)
+	{
+		free(countarr);
+		return;
+	}
 	for (i = size - 1; i >= 0; i--)
-	{
 		outputarr[countarr[array[i]] - 1] = array[i];
-	}
 	for (i = 0; i < (int)size; i++)
-	{
 		array[i] = outputarr[i];
-	}
 	free(countarr);
 	free(outputarr);
 }
