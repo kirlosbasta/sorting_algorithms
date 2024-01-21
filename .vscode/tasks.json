@@ -13,8 +13,8 @@
 				"-pedantic",
 				"-std=gnu89",
 				"${file}",
-				"3-quick_sort.c",
-				"print_array.c",
+				"101-cocktail_sort_list.c",
+				"print_list.c",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}",
                 ""
