@@ -12,9 +12,7 @@ void cocktail_sort_list(listint_t **list)
 	listint_t *current = *list, *start, *end;
 
 	if (list == NULL || current->next == NULL)
-	{
 		return;
-	}
 	end = NULL;
 	start = NULL;
 	while (stat)
@@ -32,9 +30,7 @@ void cocktail_sort_list(listint_t **list)
 			current = current->next;
 		}
 		if (!stat)
-		{
 			break;
-		}
 		stat = 0;
 		end = current;
 		current = current->prev;
