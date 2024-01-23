@@ -76,7 +76,7 @@ int max_t(int *array, int size)
 
 	for (i = 1; i < size; i++)
 	{
-		if (array[i] > array[m])
+		if (array[i] > m)
 		{
 			m = array[i];
 		}

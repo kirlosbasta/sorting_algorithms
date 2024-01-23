@@ -13,7 +13,7 @@
 				"-pedantic",
 				"-std=gnu89",
 				"${file}",
-				"104-heap_sort.c",
+				"105-radix_sort.c",
 				"print_array.c",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}",
