@@ -13,7 +13,7 @@
 				"-pedantic",
 				"-std=gnu89",
 				"${file}",
-				"103-merge_sort.c",
+				"104-heap_sort.c",
 				"print_array.c",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}",

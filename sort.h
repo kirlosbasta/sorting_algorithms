@@ -36,5 +36,8 @@ void print_from(const int *array, size_t size, size_t start);
 void merge(int *array, size_t left, size_t mid, size_t right, int *tmp);
 void split(int *array, size_t left, size_t right, int *tmp);
 void merge_sort(int *array, size_t size);
+void heap_sort(int *array, size_t size);
+void siftDown(int *array, int start, int end, size_t size);
+void heapify(int *array, int size);
 
 #endif
