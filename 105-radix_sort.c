@@ -11,7 +11,7 @@ void radix_sort(int *array, size_t size)
 {
 	int m, exp;
 
-	m = max(array, (int)size);
+	m = max_t(array, (int)size);
 	for (exp = 1; m / exp > 0; exp *= 10)
 	{
 		count(array, size, exp);
@@ -60,13 +60,13 @@ void count(int *array, int size, int exp)
 }
 
 /**
- * max - get the max digit of the array
+ * max_t - get the max digit of the array
  * @array: Array of integer
  * @size: size of the array
  *
  * Return: Max integer
  */
-int max(int *array, int size)
+int max_t(int *array, int size)
 {
 	int m = array[0], i;
 

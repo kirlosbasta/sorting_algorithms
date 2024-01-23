@@ -41,6 +41,6 @@ void siftDown(int *array, int start, int end, size_t size);
 void heapify(int *array, int size);
 void radix_sort(int *array, size_t size);
 void count(int *array, int size, int exp);
-int max(int *array, int size);
+int max_t(int *array, int size);
 
 #endif
